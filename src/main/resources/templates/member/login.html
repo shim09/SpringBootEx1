@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2> login </h2>
+<form action = "/member/login" method="post" th:object="${login}">
+Email : <input type ="text" name="memberEmail" placeholder="아이디를 입력하세요" ><br>
+PW : <input type ="password" name="memberPassword" placeholder="비밀번호를 입력하세요"><br>
+<input type ="submit" value="Login">
+</form>
+
+</body>
+</html>
